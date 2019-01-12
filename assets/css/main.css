@@ -1,0 +1,69 @@
+body {
+    background-image: url("../images/papyrus_bk.jpg");
+    background-repeat: repeat;
+}
+
+p     {
+    font-family: 'Cairo', sans-serif;
+    color: #996633;
+}
+
+h1{
+    font-family: 'Caesar Dressing', cursive;
+    font-size: 4em;
+    color: #769a76;
+    
+}
+h2 {
+    font-family: 'Cairo', sans-serif;
+    color: #333300;
+    
+}
+h3 {
+    font-family: 'Cairo', sans-serif;
+    color: #ffffcc;
+    
+}
+
+.container {
+margin-top: 2em;
+}
+
+.panel-title{
+    font-family: 'Julius Sans One', sans-serif;
+    font-size: 2em;
+    color: #ffffcc;
+}
+
+.panel {
+    border: none;
+    background-color: #333300;
+  }
+
+.panel-body {
+    border: none !important;
+    padding: 0;
+  }
+
+
+.panel-transparent {
+    background: none;
+}
+
+
+
+
+
+
+.top-buffer1 { 
+    margin-top:30px; 
+}
+
+.top-buffer2 { 
+    margin-top:70px; 
+}
+
+
+
+
+

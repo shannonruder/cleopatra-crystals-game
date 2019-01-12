@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Cleopatra's Crystal Challenge</title>
+<!-- Bootstrap Latest compiled and minified CSS -->
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+<link rel="stylesheet" type="text/css" media="screen" href="assets/css/reset.css"/>
+<link rel="stylesheet" type="text/css" media="screen" href="assets/css/main.css"/>
+<link href="https://fonts.googleapis.com/css?family=Caesar+Dressing|Cairo|Julius+Sans+One" rel="stylesheet"><script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script></head>
+<body>
+    <div class="container">
+<!-- GAME TITLE -->
+        <div class = "row">
+                <div class= "col-md-12 top buffer" >
+                        <div class="media">
+                                <div class="media-left">
+                                        <img class="media-object" src="assets/images/cleopatra.png" alt="cleopatra">  
+                                 </div>
+                                 <div class="media-body">
+                                         <h1 class="media-heading" style="color:#cc0066">Cleopatra's Crystals Challenge</h1>
+                                 </div>
+                         </div>
+                       
+                </div>
+        </div>
+<!-- INSTRUCTIONS -->
+        
+
+        <div class = "row">
+                      <div class= "col-md-8 top-buffer" >
+                            <div class="panel panel-primary panel-transparent">
+                                    <div class="panel heading">
+                                        <h1 class="panel-title text-center">INSTRUCTIONS</h1>
+                                    </div>
+                                <div class="panel-body mt-12">
+                                      <p>Make an offering to Cleopatra by meeting her crystals quota! Figure out the secret value of each crystal and use any combination to add them up to her quota.  To begin click on one or more of the gems. If your score goes over her quota, you lose the game. 
+                                        Successfully collecting crystals that add up to Cleopatra's quota and you win. Collecting too many crystals that goes over her quota will cause you to lose.</p> 
+                                </div>
+ <!-- TARGET SCORE -->
+  <!-- CRYSTAL QUOTA -->
+                                    <div class="row">
+                                         <div class="col-sm-6 top-buffer2">
+                                                 <div class="mini-box">
+                                                        <div class="panel panel-primary">
+                                                                <div class="panel heading">
+                                                                        <h1 class="panel-title text-center">CRYSTAL QUOTA</h1>
+                                                                </div>
+                                                                <div class="panel-body">
+                                                                        <h3 class="text-center" id="targetScore">0</h3> 
+                                                                </div>
+                                                                    
+                                                        </div>
+
+                                                </div>
+                                         </div>
+ 
+                                                
+
+ <!-- PLAYER SCORE -->
+                                        <div class="col-sm-6 top-buffer2">
+                                                <div class="mini-box">
+                                                        <div class="panel panel-primary">
+                                                                <div class="panel heading">
+                                                                         <h1 class="panel-title text-center">YOUR SCORE</h1>
+                                                                </div>
+                                                                <div class="panel-body">
+                                                                        <h3 class="text-center" id ="yourScore">0</h3> 
+                                                                </div>
+                                                    
+                                                        </div>
+                                                                
+                                                </div>
+                                        </div>
+ <!-- GAME SCORES -->
+                                        <div class="col-sm-6 top-buffer2">
+                                                 <div class="mini-box">
+                                                        <div class="panel panel-primary">
+                                                                <div class="panel heading">
+                                                                        <h1 class="panel-title text-center">GAMES WON</h1>
+                                                                </div>
+                                                                <div class="panel-body text-center">
+                                                                         <h3 id="winCounter">0</h3> 
+                                                                </div>
+                                                        
+                                                        </div>
+                                                </div>
+                                        </div>
+
+                                        <div class="col-sm-6 top-buffer2">
+                                                <div class="mini-box">
+                                                        <div class="panel panel-primary">
+                                                                <div class="panel heading">
+                                                                        <h1 class="panel-title text-center">GAMES LOST</h1>
+                                                                </div>
+                                                        
+                                                                 <div class="panel-body text-center">
+                                                                        <h3 id="lossCounter">0</h3> 
+                                                                </div>
+                                                        
+                                                         </div>
+                                                 </div>
+                                        </div>
+                                </div>
+                        </div> 
+         </div>
+<!-- CRYSTAL SELECTION -->
+                        <div class= "col-md-4 top-buffer">
+                                        <div class = "panel panel-primary panel-transparent">
+                                                        <div class = "panel heading">
+                                                            <h1 class="panel-title text-center">CRYSTAL SELECTION</h1>
+                                                        </div>
+                                                        <div class="panel-body text-center">
+                                                          <img src="assets/images/redgem.png" alt="red gem" id= "red">
+                                                          <img src="assets/images/bluegem.png" alt="blue gem" id= "blue">
+                                                          <img src="assets/images/yellowgem.png" alt="yellow gem" id= "yellow">
+                                                          <img src="assets/images/greengem.png" alt="green gem" id= "green">
+                                                        </div>
+                                                </div>  
+
+                        </div>
+            
+
+                </div>
+
+        </div>
+
+
+    
+        <!-- MAIN GAME LOGIC -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script src="assets/javascript/game.js"></script>
+</body>
+</html>
